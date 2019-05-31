@@ -1,0 +1,38 @@
+{
+    "name": "homebridge-fantasia",
+    "version": "0.0.0",
+    "description": "Fantasia Viper fan plugin for Homebridge",
+    "license": "ISC",
+    "keywords": [
+        "Homebridge",
+        "homebridge-plugin",
+        "Fatasia",
+        "Viper",
+        "fan",
+        "433MHz",
+        "433.9MHz",
+        "433.92MHz",
+        "Holtek",
+        "HT12E",
+        "TR32A"
+    ],
+    "author": {
+        "name": "Alexander Thoukydides",
+        "url": "https://www.thouky.co.uk/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/thoukydides/homebridge-fantasia.git"
+    },
+    "bugs": {
+        "url": "https://github.com/thoukydides/homebridge-fantasia/issues"
+    },
+    "main": "index.js",
+    "engines": {
+        "homebridge": ">=0.4.28",
+        "node": ">=6.0.0"
+    },
+    "dependencies": {
+        "request": "^2.88.0"
+    }
+}
