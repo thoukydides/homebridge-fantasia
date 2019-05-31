@@ -92,7 +92,7 @@ The essential changes to the default configuration are:
     [{
         "accessory":    "Fantasia",
         "name":         "Bedroom Fan",
-	    "address":      [0, 1, 0, 1],
+        "address":      [0, 1, 0, 1],
         "host":         "localhost",
         "port":         5001
     }]
