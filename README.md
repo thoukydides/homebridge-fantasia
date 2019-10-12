@@ -106,7 +106,7 @@ The `host` and `port` specify how to reach the pilight daemon. They can be omitt
 
 ## Notes
 
-This plugin is transmit-only; it does monitor the fan's original remote control, so the status within HomeKit may not match the fan's actual state.
+This plugin is transmit-only; it does not monitor the fan's original remote control, so the status within HomeKit may not match the fan's actual state.
 
 The current version of this plugin only supports fan speed control. It does not support reversing the direction or control of the light.
 
