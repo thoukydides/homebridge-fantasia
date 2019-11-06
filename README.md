@@ -1,5 +1,7 @@
 # homebridge-fantasia
 
+[![NPM](https://nodei.co/npm/homebridge-fantasia.png)](https://nodei.co/npm/homebridge-fantasia/)
+
 Fantasia Viper fan plugin for [Homebridge](https://github.com/nfarina/homebridge).
 
 Fantasia is a trademark owned by [Fantasia Distribution Ltd](https://www.fantasiaceilingfans.com).
