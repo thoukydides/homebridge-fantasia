@@ -106,7 +106,7 @@ class FantasiaAccessory {
     }
 
     // Identify this accessory
-    identify(paired, callback) {
+    identify(callback) {
         this.log('Identify');
         callback();
     }
