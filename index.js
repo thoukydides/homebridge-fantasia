@@ -96,8 +96,7 @@ class FantasiaAccessory {
         this.fanService
             .addCharacteristic(Characteristic.RotationSpeed)
             .setProps({ minValue: SPEED.OFF, maxValue: SPEED.HIGH,
-                        minStep: SPEED_MIN_STEP,
-                        validValues: Object.values(SPEED) })
+                        minStep: SPEED_MIN_STEP })
             .on('set', (...args) => this.setFanSpeed(...args))
             .on('get', (callback) => callback(null, this.stateSpeed));
 
