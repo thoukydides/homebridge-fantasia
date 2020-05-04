@@ -1,6 +1,8 @@
 # homebridge-fantasia
 
-[![NPM](https://nodei.co/npm/homebridge-fantasia.png)](https://nodei.co/npm/homebridge-fantasia/)
+[![npm](https://badgen.net/npm/v/homebridge-fantasia)](https://www.npmjs.com/package/homebridge-fantasia)
+[![npm](https://badgen.net/npm/dt/homebridge-fantasia)](https://www.npmjs.com/package/homebridge-fantasia)
+[![npm](https://badgen.net/npm/dw/homebridge-fantasia)](https://www.npmjs.com/package/homebridge-fantasia)
 
 Fantasia Viper fan plugin for [Homebridge](https://github.com/nfarina/homebridge).
 
