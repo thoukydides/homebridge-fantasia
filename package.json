@@ -1,7 +1,8 @@
 {
     "name": "homebridge-fantasia",
+    "displayName": "Fantasia",
     "version": "1.1.2",
-    "description": "Fantasia Viper fan plugin for Homebridge",
+    "description": "A Homebridge plugin that connects Fantasia Viper fans to Apple HomeKit",
     "license": "ISC",
     "keywords": [
         "Homebridge",
@@ -20,6 +21,24 @@
         "name": "Alexander Thoukydides",
         "url": "https://www.thouky.co.uk/"
     },
+    "funding": [
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/thoukydides"
+        },
+        {
+            "type": "paypal",
+            "url": "https://paypal.me/thoukydides"
+        },
+        {
+            "type": "ko-fi",
+            "url": "https://ko-fi.com/thouky"
+        },
+        {
+            "type": "buymeacoffee",
+            "url": "https://www.buymeacoffee.com/thouky"
+        }
+    ],
     "repository": {
         "type": "git",
         "url": "git://github.com/thoukydides/homebridge-fantasia.git"
@@ -29,10 +48,10 @@
     },
     "main": "index.js",
     "engines": {
-        "homebridge": ">=0.4.28",
-        "node": ">=6.0.0"
+        "node": "^22.15.0 || ^20.19.1",
+        "homebridge": "^1.9.0 || ^2.0.0-beta.0"
     },
     "dependencies": {
-        "request": "^2.88.0"
+        "request": "^2.88.2"
     }
 }
