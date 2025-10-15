@@ -1,0 +1,21 @@
+{
+    "files.eol": "\n",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "editor.rulers": [
+        80
+    ],
+    "eslint.enable": true,
+    "cSpell.words": [
+        "buymeacoffee",
+        "Fatasia",
+        "Holtek",
+        "npmjs",
+        "Thoukydides"
+    ],
+    "files.exclude": {
+        "node_modules/": true
+    },
+    "typescript.tsdk": "node_modules/typescript/lib"
+}
