@@ -24,6 +24,15 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Debug npm OIDC
+        run: |
+          echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > ~/.npmrc
+          npm config list
+      
+      - name: Check OIDC identity
+        run: |
+          echo "JWT: ${ACTIONS_ID_TOKEN_REQUEST_URL}"
+
       - name: Check OIDC configuration
         run: npm whoami --registry=https://registry.npmjs.org/
 
