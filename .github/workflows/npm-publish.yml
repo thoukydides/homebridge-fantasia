@@ -23,14 +23,13 @@ jobs:
           
       - name: Update npm
         run: npm install -g npm@latest
-        
+
       - name: Install dependencies
         run: npm ci
 
-      - name: Debug npm OIDC
+      - name: View configuration
         run: |
-          echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > ~/.npmrc
-          npm config list
+          cat /home/runner/work/_temp/.npmrc
       
       - name: Check OIDC identity
         run: |
