@@ -19,24 +19,12 @@ jobs:
         with:
           node-version: '20'
           registry-url: 'https://registry.npmjs.org'
-          #cache: 'npm'
           
       - name: Update npm
         run: npm install -g npm@latest
 
       - name: Install dependencies
         run: npm ci
-
-      - name: View configuration
-        run: |
-          cat /home/runner/work/_temp/.npmrc
-      
-      - name: Check OIDC identity
-        run: |
-          echo "JWT: ${ACTIONS_ID_TOKEN_REQUEST_URL}"
-
-      - name: Check OIDC configuration
-        run: npm whoami --registry=https://registry.npmjs.org/
 
       - name: Publish the module
         run: npm publish
