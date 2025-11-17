@@ -1,8 +1,8 @@
 # homebridge-fantasia
 
-[![npm](https://badgen.net/npm/v/homebridge-fantasia)](https://www.npmjs.com/package/homebridge-fantasia)
-[![npm](https://badgen.net/npm/dt/homebridge-fantasia)](https://www.npmjs.com/package/homebridge-fantasia)
-[![npm](https://badgen.net/npm/dw/homebridge-fantasia)](https://www.npmjs.com/package/homebridge-fantasia)
+[![npm](https://img.shields.io/npm/v/homebridge-fantasia?label=Latest)](https://www.npmjs.com/package/homebridge-fantasia)
+[![npm](https://img.shields.io/npm/dt/homebridge-fantasia?logo=npm&label=Downloads)](https://www.npmjs.com/package/homebridge-fantasia)
+[![npm](https://img.shields.io/npm/dw/homebridge-fantasia?label=)](https://www.npmjs.com/package/homebridge-fantasia)
 
 Fantasia Viper fan plugin for [Homebridge](https://github.com/nfarina/homebridge).
 
